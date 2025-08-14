@@ -15,7 +15,3 @@ for (let e = 0; e < arr1.length; e++){
   return "true";
 
 }
-console.log(isSame(
-{data: [2 , 5 , 6] } , [2 , 5 , 6]
-
-));
