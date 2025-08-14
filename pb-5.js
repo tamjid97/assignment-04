@@ -8,7 +8,6 @@ if (marks.length === 0) {
   let pass = 0;
   let fail = 0;
   let total = 0;
-
   for (let mark of marks) {
     total += mark;
     if (mark >= 40) {
@@ -18,9 +17,7 @@ if (marks.length === 0) {
       fail++;
     }
   }
-
   let average = Math.round(total / marks.length);
-
   return {
     finalScore: average,
     pass: pass,
