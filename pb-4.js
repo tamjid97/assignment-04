@@ -4,14 +4,20 @@ return "Invalid";
 }
 
 if (arr1.length !== arr2.length){
-  return "false";
+  return false;
 }
 
 for (let e = 0; e < arr1.length; e++){
   if (arr1[e] !== arr2[e]){
-    return "false";
+    return false;
   }
 }
-  return "true";
+  return true;
 
 }
+
+console.log(isSame
+  (
+    {data: [2 , 5 , 6] } , [2 , 5 , 6]
+  )
+);
